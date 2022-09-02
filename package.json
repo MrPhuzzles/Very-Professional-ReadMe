@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "very-professional-readme",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Description Very Professional ReadMe is a simple generator that will produce professional looking ReadMe files based on user input. We are using the inquirier package from node.js to retrieve that information and then generate the readme file all within Javascript. These ReadMe files will feature the appropriate html markdown used on GitHub so titles are displayed as the most predominant text followed by other sections of the ReadMe!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "MrPhuzzles",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrPhuzzles/Very-Professional-ReadMe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrPhuzzles/Very-Professional-ReadMe/issues"
+  },
+  "homepage": "https://github.com/MrPhuzzles/Very-Professional-ReadMe#readme"
 }
