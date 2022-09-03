@@ -25,8 +25,8 @@
     Thank you to undefined for all of your help along the way!
   ## Questions
     If you have any questions please feel free to reach out to me via email or check out my GitHub page!
-    *[My GitHub](https://github.com/MrPhuzzles/)
-    *[e-mail me at tietjen.james92@gmail.com](mailto:tietjen.james92@gmail.com)
+    * [My GitHub](https://github.com/MrPhuzzles/)
+    * [e-mail me at tietjen.james92@gmail.com](mailto:tietjen.james92@gmail.com)
   
 ## License:
   Please click the link to see details about your license
