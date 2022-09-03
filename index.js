@@ -75,10 +75,10 @@ const questions = (answers) => {
         message: 'How do your tests work?'
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
-        message: 'What licenses are you using?',
-        choices: ['MIT License', 'GNU GPLv3', 'Apache']
+        message: 'Which of the following lincense are you using?',
+        choices: ['MIT License', 'GNU GPLv3', 'Apache License 2.0', 'None']
     },
     {
         type: 'input',
@@ -147,3 +147,4 @@ function init() {
 
 // Function call to initialize app
 init();
+

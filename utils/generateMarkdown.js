@@ -10,6 +10,9 @@ function renderLicenseBadge(license) {
       break;
     case 'Apache License 2.0':
       licenseBadge = '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+      break;
+    case 'None':
+      licenseBadge = ''
   }
   return licenseBadge;
 }
@@ -25,6 +28,9 @@ function renderLicenseLink(license) {
       break;
     case 'Apache License 2.0':
       licenseLink = '[Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/)';
+      break;
+    case 'None':
+      licenseLink = ''
   }
   return licenseLink;
 }
@@ -55,11 +61,11 @@ function renderLicenseInTableContents(license) {
 function generateMarkdown(data) {
   const projectInfo = data
   return `
-  # ${projectInfo.title}
-  ${renderLicenseBadge(projectInfo.license)}
-  ## Description
-    ${projectInfo.description}
-  ## Table of Contents
+# ${projectInfo.title}
+${renderLicenseBadge(projectInfo.license)}
+## Description
+  ${projectInfo.description}
+## Table of Contents
   * [Project Title](#${projectInfo.title})
   * [Description](#description)
   * [Installation](#installation)
@@ -68,22 +74,22 @@ function generateMarkdown(data) {
   * [Contributions](#contributions)
   * [Questions](#questions)
   ${renderLicenseInTableContents(projectInfo.license)}
-  ## Installation
-    Please follow these installation instructions:
-    ${projectInfo.installation}
-  ## Usage
-    Please follow these usage guidelines:
-    ${projectInfo.usage}
-  ## Tests
-    Please feel free to run these explained tests!
-    ${projectInfo.testInstructions}
-  ## Contributions
-    Thank you to ${projectInfo.contributions} for all of your help along the way!
-  ## Questions
-    If you have any questions please feel free to reach out to me via email or check out my GitHub page!
-    [My GitHub](https://github.com/${projectInfo.github})
-    [e-mail me at ${projectInfo.email}](mailto:${projectInfo.email})
-  ${renderLicenseSection(projectInfo.license)}
+## Installation
+  Please follow these installation instructions:
+  ${projectInfo.installation}
+## Usage
+  Please follow these usage guidelines:
+  ${projectInfo.usage}
+## Tests
+  Please feel free to run these explained tests!
+  ${projectInfo.testInstructions}
+## Contributions
+  Thank you to ${projectInfo.contributions} for all of your help along the way!
+## Questions
+  If you have any questions please feel free to reach out to me via email or check out my GitHub page!
+  [My GitHub](https://github.com/${projectInfo.github})
+  [e-mail me at ${projectInfo.email}](mailto:${projectInfo.email})
+${renderLicenseSection(projectInfo.license)}
 `;
 }
 
