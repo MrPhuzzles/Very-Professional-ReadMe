@@ -6,8 +6,13 @@ Very Professional ReadMe is a simple generator that will produce professional lo
 ## Built with
 * Javascript
 * Node.js
-* Inquirer
-* FS Module
+* Inquirer 8.2.4
+
+## Screeshot of Terminal while app in use
+[Node terminal with app running](./Screenshots/screenshot1.png)
+
+## Walkthrough Video
+[Video Walkthrough]()
 
 ## Credits
 * Created by MrPhuzzles ©️2022
