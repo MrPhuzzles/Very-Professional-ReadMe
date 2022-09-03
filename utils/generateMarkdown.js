@@ -87,8 +87,8 @@ ${renderLicenseBadge(projectInfo.license)}
   Thank you to ${projectInfo.contributions} for all of your help along the way!
 ## Questions
   If you have any questions please feel free to reach out to me via email or check out my GitHub page!
-  [My GitHub](https://github.com/${projectInfo.github})
-  [e-mail me at ${projectInfo.email}](mailto:${projectInfo.email})
+  * [My GitHub](https://github.com/${projectInfo.github})
+  * [e-mail me at ${projectInfo.email}](mailto:${projectInfo.email})
 ${renderLicenseSection(projectInfo.license)}
 `;
 }
