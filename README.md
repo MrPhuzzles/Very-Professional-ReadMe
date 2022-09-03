@@ -12,7 +12,7 @@ Very Professional ReadMe is a simple generator that will produce professional lo
 ![Node terminal with app running](./Screenshots/screenshot1.png)
 
 ## Walkthrough Video
-[Video Walkthrough]()
+[Video Walkthrough](https://drive.google.com/file/d/1z45PrL8SSQ4FjYkdaUTAeAWmZLlI7jxk/view)
 
 ## Credits
 * Created by MrPhuzzles ©️2022
