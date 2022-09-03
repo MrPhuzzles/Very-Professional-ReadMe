@@ -84,7 +84,7 @@ ${renderLicenseBadge(projectInfo.license)}
   Please feel free to run these explained tests!
   ${projectInfo.testInstructions}
 ## Contributions
-  Thank you to ${projectInfo.contributions} for all of your help along the way!
+  Thank you to ${projectInfo.contribution} for all of your help along the way!
 ## Questions
   If you have any questions please feel free to reach out to me via email or check out my GitHub page!
   * [My GitHub](https://github.com/${projectInfo.github})
