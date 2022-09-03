@@ -15,15 +15,15 @@
     
 ## Installation
   Please follow these installation instructions:
-  You install the application with the node terminal command
+  You run the install command in your terminal and voila!
 ## Usage
   Please follow these usage guidelines:
-  You pop things like numbers in the calculator and it will compute
+  Once in the root of the folder, type "node index"
 ## Tests
   Please feel free to run these explained tests!
-  There are no tests available currently
+  There are no tests currently for this project
 ## Contributions
-  Thank you to undefined for all of your help along the way!
+  Thank you to myself and my lovely support team! for all of your help along the way!
 ## Questions
   If you have any questions please feel free to reach out to me via email or check out my GitHub page!
   * [My GitHub](https://github.com/MrPhuzzles)
