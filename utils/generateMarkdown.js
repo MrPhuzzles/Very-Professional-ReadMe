@@ -54,18 +54,19 @@ function renderLicenseInTableContents(license) {
 
 function generateMarkdown(data) {
   const projectInfo = data
-  return `# ${projectInfo.title}
+  return `
+  # ${projectInfo.title}
   ${renderLicenseBadge(projectInfo.license)}
   ## Description
     ${projectInfo.description}
-  ## Table of COntents
-  *[Project Title](#${projectInfo.title})
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Test](#tests)
-  *[Contributions](#contributions)
-  *[Questions](#questions)
+  ## Table of Contents
+  * [Project Title](#${projectInfo.title})
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Test](#tests)
+  * [Contributions](#contributions)
+  * [Questions](#questions)
   ${renderLicenseInTableContents(projectInfo.license)}
   ## Installation
     Please follow these installation instructions:

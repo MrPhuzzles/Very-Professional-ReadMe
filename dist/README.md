@@ -1,26 +1,26 @@
-# Cats Galore
+# Calculator
   
   ## Description
-    You get gats
-  ## Table of COntents
-  *[Project Title](#Cats Galore)
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[Test](#tests)
-  *[Contributions](#contributions)
-  *[Questions](#questions)
+    It does maths for you
+  ## Table of Contents
+  * [Project Title](#Calculator)
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Test](#tests)
+  * [Contributions](#contributions)
+  * [Questions](#questions)
   * [License](#license)
     
   ## Installation
     Please follow these installation instructions:
-    You run the node install command once you have selected the root directory of this folder
+    Run the nodejs commant for installing require modules
   ## Usage
     Please follow these usage guidelines:
-    You enter your information, and it gives you cats
+    Make sure your are in the root directory that is shared with index file. Then run node index on the command line
   ## Tests
     Please feel free to run these explained tests!
-    Currently there are no tests available for this project
+    Currently there are no tests
   ## Contributions
     Thank you to undefined for all of your help along the way!
   ## Questions
