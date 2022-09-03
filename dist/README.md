@@ -1,9 +1,8 @@
-
-  # Calculator
+# Calculator
   
-  ## Description
-    It does maths
-  ## Table of Contents
+## Description
+  It does maths
+## Table of Contents
   * [Project Title](#Calculator)
   * [Description](#description)
   * [Installation](#installation)
@@ -13,18 +12,18 @@
   * [Questions](#questions)
   * [License](#license)
     
-  ## Installation
+## Installation
     Please follow these installation instructions:
     Install it
-  ## Usage
+## Usage
     Please follow these usage guidelines:
     Use it
-  ## Tests
+## Tests
     Please feel free to run these explained tests!
     You don't
-  ## Contributions
+## Contributions
     Thank you to undefined for all of your help along the way!
-  ## Questions
+## Questions
     If you have any questions please feel free to reach out to me via email or check out my GitHub page!
     [My GitHub](https://github.com/MrPhuzzles)
     [e-mail me at tietjen.james92@gmail.com](mailto:tietjen.james92@gmail.com)
